@@ -162,9 +162,8 @@ a {
 .team-item {
   background: #fff;
 }
-.advantage {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.advantages {
+  padding: 120px 0;
 }
 .advantages-title {
   font-weight: 700;
@@ -192,8 +191,8 @@ a {
   margin-top: 120px;
   margin-bottom: 120px;
 }
-.advantage-item {
-  flex-basis: calc((100% - 72px) / 4);
+.advantages-item {
+  width: calc((100% - 72px) / 4);
 }
 .advantages-item-title {
   font-weight: 500;
