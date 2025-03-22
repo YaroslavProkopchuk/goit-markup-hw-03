@@ -113,6 +113,7 @@ a {
 /*header*/
 
 /*main*/
+/*section-1*/
 .start-page {
   background: #2e2f42;
   padding-top: 188px;
@@ -126,7 +127,7 @@ a {
   text-align: center;
   color: #fff;
   margin: 0 auto;
-
+  max-width: 496px;
   padding-bottom: 48px;
 }
 .btn {
@@ -141,18 +142,29 @@ a {
   margin: 0 auto;
   padding: 16px 32px;
   border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .btn:hover,
 .btn:focus {
   background: #404bbf;
 }
+/*section-1*/
+
+/*section-2-3*/
 .team {
   background: #f4f4fd;
   color: #2e2f42;
+  padding: 120px 0;
 }
 .team-item {
   background: #fff;
+}
+.advantage {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .advantages-title {
   font-weight: 700;
@@ -236,7 +248,13 @@ a {
   text-align: center;
   color: #434455;
 }
+/*section2-3*/
 
+/*section-4*/
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .portfolio-title {
   text-transform: capitalize;
   font-weight: 700;
@@ -275,6 +293,7 @@ a {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+/*section-4*/
 /*main*/
 /*footer*/
 .footer-logo .logo-part {
